@@ -1,0 +1,26 @@
+{
+  "name": "sistema_controle_desperdicio",
+  "version": "1.0.0",
+  "description": "Projeto Pessoal para faculdade - TCC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node_modules src/common/infrastructure/http/server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.6",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "tsc": "^2.0.4",
+    "tsc-init": "^2.1.0",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.7.3"
+  }
+}
