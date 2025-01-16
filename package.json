@@ -13,6 +13,7 @@
     "@types/node": "^22.10.6",
     "cors": "^2.8.5",
     "express": "^4.21.2",
+    "sistema_controle_desperdicio": "file:",
     "tsc": "^2.0.4",
     "tsc-init": "^2.1.0",
     "typeorm": "^0.3.20"
