@@ -14,10 +14,13 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "pg": "^8.13.1",
     "sistema_controle_desperdicio": "file:",
     "tsc": "^2.0.4",
     "tsc-init": "^2.1.0",
-    "typeorm": "^0.3.20"
+    "typeorm": "^0.3.20",
+    "zod": "^3.24.1"
   },
   "devDependencies": {
     "ts-node": "^10.9.2",

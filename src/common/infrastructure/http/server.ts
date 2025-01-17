@@ -1,5 +1,15 @@
+import { env } from "../env";
+import { dataSource } from "../typeorm";
 import { app } from "./app";
 
-app.listen(3333, () => {
-  console.log("Servidor online!");
-});
+dataSource
+  .initialize()
+  .then(() => {
+    app.listen(env.PORT, () => {
+      console.log(`Server running on port ${env.PORT}! 🏆`);
+      console.log("API docs available at GET /docs 📚");
+    });
+  })
+  .catch((error) => {
+    console.error("Error inicializing data source:", error);
+  });
